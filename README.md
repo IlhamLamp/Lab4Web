@@ -57,3 +57,26 @@
 
 ## <b>9. Konten Artikel </b>
 ![image10](image/0-9_article.PNG)
+
+# Tugas
+
+- <b>1. Tambahkan Layout untuk menu About => buat single layout yang berisi deskripsi, portfolio, dll<b>
+  - Jawaban:
+  
+  - Berikut isi dari ``<div> id="about">``.
+  ![image11](image/1-about-me.PNG)<br>
+
+  - ``display: flex;`` berfungsi membuat elemen-elemen yang ada di dalamnya menjadi menjajar ke samping dengan rapih (sesuai keinginan).
+  - ``align-items: center`` agar semua item di dalam flex berada di tengah.
+  - ``justify-content: space-between;``untuk memberi jarak antar kontennya. 
+
+- <b>2. Tambahkan layout untuk menu Contact => yang berisi form isian: nama, email, message, dll</b>
+  - Jawaban:
+
+  - Sebelum,
+  ![image11](image/2-contact.PNG)<br>
+  - Sesudah, proses klik <i>Send Message</i>
+  ![image12](image/3-contact.png)<br>
+
+  - Pada ``input[type=text], textarea``, ``resize: vertical;`` berfungsi mengatur kolom <b>Masukan</b> agar hanya dapat naik-turun.
+  - ``input[type=submit]:hover`` adalah ketika kursor diarahkan ke elemen tersebut, maka akan berubah sesuai pengkondisiannya.
